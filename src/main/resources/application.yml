@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    ds1:
+      jdbc_url: jdbc:mysql://127.0.0.1:3306/db1?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+      username: root
+      password: root
+    ds2:
+      jdbc_url: jdbc:mysql://127.0.0.1:3306/db2?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
+      username: root
+      password: root
+
+logging:
+  level:
+    cn.youyouxunyin.multipledb2.mapper: debug
+
+server:
+  port: 9001
